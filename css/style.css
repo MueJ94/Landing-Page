@@ -25,6 +25,7 @@
     align-items: center;
     gap: 48px;
     padding-bottom: 48px;
+    margin-bottom: 38px;
 }
 
 .top .left,
@@ -35,9 +36,30 @@ img {
     height: 200px;
 }
 
-.subheader {
+
+.top .subheader {
     color: #F9FAF8;
     font-size: 48px;
+}
+.top-middle .subheader {
+    color: #1F2937;
+    font-size: 36px;  
+    display: flex;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+.illustrations {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.subtext {
+    text-align: center;
+}
+
+.item {
+    width: 150px;
 }
 .description {
     font-size: 18px;
@@ -45,24 +67,34 @@ img {
     margin-bottom: 8px;
 }
 
+.rectangle {
+    border-radius: 5px;
+    border: 2px solid #3882F6;
+    width: 150px;
+    height: 150px;
+}
 body {
     margin: 0;
 }
+
 ul {
     display: flex;
     gap: 21px;
 }
 
-ul li{
+.header ul li{
     list-style-type: none;
     color: white;
 }
+
 a {
     text-decoration: none;
     color: white
 }
 
-
+.item {
+    display: inline-block;
+}
 
 
 
