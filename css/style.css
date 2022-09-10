@@ -17,17 +17,19 @@
 .right {
     padding-right: 100px;
 }
+
 .top {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 48px;
     padding-bottom: 48px;
 }
 
-.top .left{
-    width: 440px;
+.top .left,
+.top .right {
+    flex: 0 0 400px;
 }
 img {
     height: 200px;
