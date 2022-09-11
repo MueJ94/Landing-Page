@@ -31,9 +31,12 @@
 .top .left,
 .top .right {
     flex: 0 0 400px;
+    width: 400px;
+    margin: auto;
 }
+
 img {
-    height: 200px;
+    width: 400px;
 }
 
 .top-middle {
