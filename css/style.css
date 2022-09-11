@@ -36,6 +36,9 @@ img {
     height: 200px;
 }
 
+.top-middle {
+    padding: 48px;
+}
 
 .top .subheader {
     color: #F9FAF8;
@@ -73,6 +76,27 @@ img {
     width: 150px;
     height: 150px;
 }
+
+.bottom-middle {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    padding: 60px;
+}
+
+.quote {
+    width: 850px;
+    margin: auto;
+}
+.name {
+    width: 850px;
+    margin: auto;
+    margin-top: 8px;
+    text-align: end;
+}
+
 body {
     margin: 0;
 }
